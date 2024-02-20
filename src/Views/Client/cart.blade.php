@@ -1,0 +1,34 @@
+@extends('layouts.master')
+@section('title')
+    Giỏ hàng
+@endsection
+@section('content')
+<section id="team" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                    <h2>Khóa học của tôi</h2>
+                    <!-- <h4>Xem &amp; đăng kí</h4> -->
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                    <img src="/assets/client/assets/images/team-image3.jpg" class="img-responsive" alt="">
+                    <div class="team-hover">
+                        <div class="team-item">
+                            <a href="chitietkhoahoc.html" class="section-btn">Xem khóa học</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h3>Javascript Cơ Bản</h3>
+                    <p>Bạn chưa hoàn thành khóa học này</p><br>
+                    <a href="listkhoahoc.html" class="section-btn">Thêm khóa học</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@endsection

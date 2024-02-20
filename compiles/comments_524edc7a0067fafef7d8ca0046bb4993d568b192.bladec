@@ -1,0 +1,59 @@
+<?php $_shouldextend[1]=1; ?>
+<?php $this->startSection('title'); ?>
+ Bình luận
+<?php $this->stopSection(); ?>
+<?php $this->startSection('content'); ?>
+ 
+
+ <!-- Begin Page Content -->
+ <div class="container-fluid">
+
+ <!-- Page Heading -->
+ <h1 class="h3 mb-4 text-gray-800">Bình luận</h1>
+
+ <div class="row">
+ <div class="col-lg">
+ <!-- Circle Buttons -->
+ <div class="card shadow">
+ <div class="card-header py-3">
+ <h6 class="m-0 font-weight-bold text-primary">Danh sách bình luận</h6>
+ </div>
+ <div class="card-body">
+ <!-- Circle Buttons (Default) -->
+ <table class="table table-bordered">
+ <thead>
+ <tr>
+ <th scope="col">ID</th>
+ <th scope="col">Nội dung bình luận</th>
+ <th scope="col">Tên tài khoản</th>
+ <th scope="col">Tên khóa học</th>
+ <th scope="col">Hình ảnh</th>
+ <th scope="col">Thao tác</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <th scope="row">1</th>
+ <td>Mark</td>
+ <td>Otto</td>
+ <td>@mdo</td>
+ <td>@mdo</td>
+ <td>
+ <a href="#" class="btn btn-danger btn-circle">
+ <i class="fas fa-trash"></i>
+ </a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <!-- /.container-fluid -->
+ </div>
+ <!-- End of Main Content -->
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layouts.master'); } ?>

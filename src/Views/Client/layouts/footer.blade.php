@@ -1,0 +1,67 @@
+<footer id="footer" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3 col-sm-8">
+                <div class="footer-info">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s">Học lập trình miễn phí</h2>
+                    </div>
+                    <address class="wow fadeInUp" data-wow-delay="0.4s">
+                        <p>Tự tin và mạnh mẽ trong việc viết code. <br>
+                            Giữ bình tĩnh và tiếp tục viết code,<br> ngay cả khi gặp khó khăn.</p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-8">
+                <div class="footer-info">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s">Thông tin liên hệ</h2>
+                    </div>
+                    <address class="wow fadeInUp" data-wow-delay="0.4s">
+                        <p>0383927154 | 0383927154</p>
+                        <p><a href="mailto:info@company.com">Hieundph31723@fpt.edu.vn</a></p>
+                        <p>LINE: eatery247 </p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-8">
+                <div class="footer-info footer-open-hour">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s">Giờ hoạt động</h2>
+                    </div>
+                    <div class="wow fadeInUp" data-wow-delay="0.4s">
+                        <p>Thứ 2: Hoạt động</p>
+                        <div>
+                            <strong>Thứ 3 đến Thứ 6</strong>
+                            <p>7:00 AM - 9:00 PM</p>
+                        </div>
+                        <div>
+                            <strong>Thứ 6 - Chủ nhật</strong>
+                            <p>11:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-4">
+                <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
+                    <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-google"></a></li>
+                </ul>
+
+                <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s">
+                    <p><br>Copyright &copy; 2024 <br>Nguyễn Đức Hiếu
+
+                        <br><br>Thiết kế: <a rel="nofollow" href="http://templatemo.com" target="_parent">TemplateMo</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>

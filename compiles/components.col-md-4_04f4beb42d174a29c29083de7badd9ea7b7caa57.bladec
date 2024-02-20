@@ -1,0 +1,15 @@
+<div class="col-md-4 col-sm-4">
+ <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+ <img src="/assets/client/assets/images/team-image1.jpg" class="img-responsive" alt="">
+ <div class="team-hover">
+ <div class="team-item">
+ <a href="chitietkhoahoc.html" class="section-btn">Xem khóa học</a>
+
+ </div>
+ </div>
+ </div>
+ <div class="team-info">
+ <h3>HTML CSS Pro</h3>
+ <p>1.500.000đ</p>
+ </div>
+</div>

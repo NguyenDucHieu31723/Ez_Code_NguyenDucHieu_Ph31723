@@ -1,0 +1,78 @@
+<?php $_shouldextend[1]=1; ?>
+<?php $this->startSection('title'); ?>
+ Quản lí người dùng
+<?php $this->stopSection(); ?>
+<?php $this->startSection('content'); ?>
+ 
+ <!-- End of Topbar -->
+
+ <!-- Begin Page Content -->
+ <div class="container-fluid">
+
+ <!-- Page Heading -->
+ <h1 class="h3 mb-4 text-gray-800">Người dùng</h1>
+
+ <div class="row">
+ <div class="col-lg">
+ <!-- Circle Buttons -->
+ <div class="card shadow">
+ <div class="card-header py-3">
+ <h6 class="m-0 font-weight-bold text-primary">Danh sách người dùng</h6>
+ </div>
+ <div class="card-body">
+ <!-- Circle Buttons (Default) -->
+ <table class="table table-bordered">
+ <thead>
+ <tr>
+ <th scope="col">ID</th>
+ <th scope="col">Tên người dùng</th>
+ <th scope="col">Họ và tên</th>
+ <th scope="col">Email</th>
+ <th scope="col">Mật khẩu</th>
+ <th scope="col">Ảnh đại diện</th>
+ <th scope="col">Giới tính</th>
+ <th scope="col">Số điện thoại</th>
+ <th scope="col">Địa chỉ</th>
+ <th scope="col">Vai trò</th>
+ <th scope="col">Thao tác</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <th scope="row">1</th>
+ <td>Mark</td>
+ <td>Otto</td>
+ <td>@mdo</td>
+ <td>@mdo</td>
+ <td>@mdo</td>
+ <td>@mdo</td>
+ <td>@mdo</td>
+ <td>@mdo</td>
+ <td>@</td>
+ <td>
+ <a href="#" class="btn btn-success btn-circle">
+ <i class="fas fa-check"></i>
+ </a>
+ <a href="#" class="btn btn-primary btn-circle">
+ <i class="fas fa-fw fa-wrench"></i>
+ </a>
+ <a href="#" class="btn btn-danger btn-circle">
+ <i class="fas fa-trash"></i>
+ </a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <!-- /.container-fluid -->
+ </div>
+ <!-- End of Main Content -->
+
+ 
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layouts.master'); } ?>
